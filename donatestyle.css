@@ -43,11 +43,13 @@ body{
 }
 .hand{
 	width:40vw ;
-	padding-top: 15vh;
+	padding-top: 5vh;
 	padding-left: 25vw;
 }
 .btn{
 	padding-top: 6vh;
+	width:20px;
+	height:10px;
 	padding-left:45vw;
 }
 .dhead{
