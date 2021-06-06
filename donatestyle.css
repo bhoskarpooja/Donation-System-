@@ -44,7 +44,7 @@ body{
 .hand{
 	width:40vw ;
 	padding-top: 2vh;
-	padding-left: 23vw;
+	padding-left: 25vw;
 }
 .btn{
 	padding-top: 6vh;
@@ -53,5 +53,5 @@ body{
 .dhead{
 	align-items: center;
 	padding-left:45vw;
-	padding-top: 20vh;
+	padding-top: 15vh;
 }
