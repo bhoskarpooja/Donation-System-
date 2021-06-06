@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(img/elderly.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(2, 1, 1, 0.589);
+}
+.navbar .logo{
+	width: 180px;
+	height: 100px;
+	margin-left: 90px;
+	margin-top: 20px;
+	border: solid black 2px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #f2f2f2;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background:#66b3ff;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: relative;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color:white;
+	font-size: 50px;
+	font-family:"sans-serif";
+	text-transform: uppercase;
+	width: 550px;
+	padding-left: 800px;
+	font-weight: bold;
+	text-align: center;
+}
+.center .buttons{
+	margin-left: 65vw;
+	font-family:"sans-serif";
+} 
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #0b0b0ebe;
+	background: #66b3ff;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #2e3033;
+	border-radius: 25px;
+	transition: .4s;
+	margin-top: 15vh;
+}
+.buttons .btn2{
+	margin-left: 40px;
+
+}
+.buttons button:hover{
+	background: #66b3ff;
+}

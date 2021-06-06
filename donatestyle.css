@@ -1,0 +1,57 @@
+body{
+	background-image: url(img/bg1.jpg);
+	/* background-repeat: no-repeat; */
+}
+
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(2, 1, 1, 0.589);
+}
+.navbar .logo{
+	width: 180px;
+	height: 100px;
+	margin-left: 90px;
+	margin-top: 20px;
+	border: solid black 2px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: #f2f2f2;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background:#66b3ff;
+	border-radius: 2px;
+}
+.hand{
+	width:70vw ;
+	padding-top: 6vh;
+	padding-left: 35vw;
+}
+.btn{
+	padding-top: 6vh;
+	padding-left:45vw;
+}
+.dhead{
+	align-items: center;
+	padding-left:45vw;
+	padding-top: 20vh;
+}
